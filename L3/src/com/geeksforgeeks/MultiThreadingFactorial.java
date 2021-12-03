@@ -1,2 +1,4 @@
-package com.geeksforgeeks;public class MultiThreadingFactorial {
+package com.geeksforgeeks;
+
+public class MultiThreadingFactorial {
 }
