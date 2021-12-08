@@ -51,5 +51,37 @@ public class Main {
         Random random = new Random();
         random.ints(5).forEach(System.out::println);
 
+        System.out.println("-------------------------------------------------------------------------");
+        //Question 6
+
+        //This stream code is incorrect because numbers(lets assume it to be an array of integers) is not converted to stream
+        //by calling stream() method on numbers.Then further interdiate operations and end operations should be performed.
+        System.out.println("-------------------------------------------------------------------------");
+        //Question 5
+
+        //Yes this piece of code is correct because from Java 8 onwards interface can have abstact methods as well as methods
+        //with defination with default keyword at the start
+        System.out.println("-------------------------------------------------------------------------");
+        //Question 4
+        //a)we cannot write filter expression after for each because forEach is terminal operation and filter is intermediate
+        //operation
+        //b)yes we can write filter operation after map operation because both are intermediate operations
+
+        System.out.println("-------------------------------------------------------------------------");
+        //Question 3
+        //equals() and hashcode() methods belong to Object class which by default is parent class of every class and interface
+        //in java.The purpose of @Override annotation is to make sure we use correct method signature as of parent class.
+        //Even if we don't use @Override annotation on methods while overriding methods it can we still overrided.
+
+        System.out.println("-------------------------------------------------------------------------");
+
+        //Question 2
+        //If we don't override equals methods in Customer class then customer instances will be compared based on their hashcode
+        //and if we we have same data for all fields of customer it will be stored as two different keys in hasmap due to different hascodes.
+
+        //Question1
+        //It will start producing random hashcodes even for when two objects are same according to equals() method hence breaking
+        //the contract that same objects according to equals method should have same hashcode or vice-versa.
+
     }
 }
