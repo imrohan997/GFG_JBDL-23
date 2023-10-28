@@ -20,3 +20,13 @@ In this directory, following Java concepts has been covered
 - Inheritance of Classes and Interfaces
 - Singleton Design demo
 - Java Streams
+
+#### L3
+In this directory, folllowing Java concepts has been covered
+- Equals and HashCode
+- Multithreading
+
+#### L4 and L4_Caculator
+In this directory, concept of Maven is covered.
+- Article on Maven : https://medium.com/p/6d5c39d19401
+
