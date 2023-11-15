@@ -30,3 +30,11 @@ In this directory, folllowing Java concepts has been covered
 In this directory, concept of Maven is covered.
 - Article on Maven : https://medium.com/p/6d5c39d19401
 
+#### L5
+In this directory, following Web Server concepts are covered
+- Explained server,client, communication with server
+- Explained Srping and Springboot
+- Application Server(Tomcat, Jetty, Undertoe) Vs Web Server
+- Spring boot properties
+- Logging Level(ERROR, WARN, INFO, DEBUG, TRACE)
+- Spring profiles(dev,qa,prod)
